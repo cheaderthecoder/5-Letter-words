@@ -7,11 +7,11 @@
 A collection of 5-letter words from the English language, available in both JSON and TXT formats for use in your projects. This repository provides convenient access to a list of five-letter words, which can be useful for word games, educational tools, or other applications.
 
 ## Table of Contents
-- [Endpoints](https://github.com/cheaderthecoder/5-Letter-words/edit/main/README.md#Endpoints)
-- [Usage](https://github.com/cheaderthecoder/5-Letter-words/edit/main/README.md#Usage)
-- [Examples](https://github.com/cheaderthecoder/5-Letter-words/edit/main/README.md#Examples)
-- [Sources](https://github.com/cheaderthecoder/5-Letter-words/edit/main/README.md#sources)
-- [License](https://github.com/cheaderthecoder/5-Letter-words/edit/main/README.md#license)
+- [endpoints](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Endpoints)
+- [Usage](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Usage)
+- [Examples](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Examples)
+- [Sources](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#sources)
+- [License](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#license)
 
 ## Endpoints
 You can access the list of words through the following endpoints:
