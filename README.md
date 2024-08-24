@@ -1,7 +1,6 @@
 # 5-Letter-Words
-
-![GitHub top language](https://img.shields.io/github/languages/top/cheaderthecoder/tic-tac-toe)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cheaderthecoder/tic-tac-toe)
+![GitHub top language](https://img.shields.io/github/languages/top/cheaderthecoder/tic-tac-toe)
 ![LICENSE](https://img.shields.io/github/license/cheaderthecoder/tic-tac-toe)
 
 A collection of five-letter English words, available in both JSON and TXT formats, designed for seamless integration into your projects. This repository offers an easily accessible list of five-letter words, ideal for word games, educational resources, and various other applications, with an extra c# txt to json script thrown in 😉.
