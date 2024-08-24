@@ -110,6 +110,23 @@ fetch(url)
 ```
 
 
+## Script
+This script converts a list of words from a text file into a JSON file format. It fetches a text file containing a list of five-letter words from a specified URL, processes the content, and saves it as a JSON file.
+
+#### Overview
+
+    Language: C#
+    Dependencies:
+        Newtonsoft.Json
+        .NET Core or .NET Framework
+
+#### Features
+
+    Fetches data from a remote text file using HttpClient.
+    Converts the list of words to a JSON format using JsonConvert.SerializeObject.
+    Saves the JSON output to a file named words.json.
+
+
 ## Acknowledgements
 A list of Repo's/projects that helped me in someway
 
