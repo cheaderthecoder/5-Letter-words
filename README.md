@@ -4,10 +4,11 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cheaderthecoder/tic-tac-toe)
 ![LICENSE](https://img.shields.io/github/license/cheaderthecoder/tic-tac-toe)
 
-A collection of 5-letter words from the English language, available in both JSON and TXT formats for use in your projects. This repository provides convenient access to a list of five-letter words, which can be useful for word games, educational tools, or other applications.
+A collection of five-letter English words, available in both JSON and TXT formats, designed for seamless integration into your projects. This repository offers an easily accessible list of five-letter words, ideal for word games, educational resources, and various other applications, with an extra c# txt to json script thrown in 😉.
 
 ## Table of Contents
 - [endpoints](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Endpoints)
+- [Download](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Download)
 - [Usage](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Usage)
 - [Examples](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Examples)
 - [Sources](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#sources)
@@ -19,13 +20,14 @@ You can access the list of words through the following endpoints:
 - **TXT Format:** [words.txt](https://cheaderthecoder.github.io/5-Letter-words/words.txt)
 - **JSON Format:** [words.json](https://cheaderthecoder.github.io/5-Letter-words/words.json)
 
-or download the files locally at:
+## Download
+Instead of using a endpoint you can download the files locally at:
 - **TXT Format:** [Download words.txt](https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.txt)
 - **JSON Format:** [Download words.json](https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.txt)
 
 
 ## Usage
-You can easily integrate this word list into your projects by accessing either the TXT or JSON endpoints. Below are some examples of how to fetch/read and use the word-list in your application or download it and load it from a file locally
+You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally.
 
 ### Examples
 
