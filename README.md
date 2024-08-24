@@ -1,17 +1,24 @@
 # 5-Letter-Words
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cheaderthecoder/tic-tac-toe)
-![GitHub top language](https://img.shields.io/github/languages/top/cheaderthecoder/tic-tac-toe)
-![LICENSE](https://img.shields.io/github/license/cheaderthecoder/tic-tac-toe)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cheaderthecoder/5-Letter-words)
+![GitHub top language](https://img.shields.io/github/languages/top/cheaderthecoder/5-Letter-words)
+![LICENSE](https://img.shields.io/github/license/cheaderthecoder/5-Letter-words)
 
-A collection of five-letter English words, available in both JSON and TXT formats, designed for seamless integration into your projects. This repository offers an easily accessible list of five-letter words, ideal for word games, educational resources, and various other applications, with an extra c# txt to json script thrown in 😉.
+A collection of five-letter English words, available in both JSON and TXT formats, designed for seamless integration into your projects. This repository offers an easily accessible list of five-letter words, ideal for word games, educational resources, and various other applications, with an extra c# script to convert txt to json thrown in 😉.
+
 
 ## Table of Contents
-- [endpoints](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Endpoints)
-- [Download](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Download)
 - [Usage](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Usage)
+- [endpoints](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Endpoints)
+- [Downloads](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Download)
 - [Examples](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Examples)
-- [Sources](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#sources)
-- [License](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#license)
+- [Script](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Script)
+- [Acknowledgements](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Acknowledgements)
+- [License](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#License)
+
+
+## Usage
+You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally.
+
 
 ## Endpoints
 You can access the list of words through the following endpoints:
@@ -19,16 +26,15 @@ You can access the list of words through the following endpoints:
 - **TXT Format:** [words.txt](https://cheaderthecoder.github.io/5-Letter-words/words.txt)
 - **JSON Format:** [words.json](https://cheaderthecoder.github.io/5-Letter-words/words.json)
 
-## Download
+## Downloads
 Instead of using a endpoint you can download the files locally at:
+
 - **TXT Format:** [Download words.txt](https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.txt)
 - **JSON Format:** [Download words.json](https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.txt)
 
 
-## Usage
-You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally.
-
 ### Examples
+a list of examples of using the word list in your program
 
 #### Python 
 Fetching the JSON Data from the endpoint
@@ -44,6 +50,7 @@ print(words[:10])  # Print the first 10 words as an example
 
 #### c#
 Reading from the TXT file locally
+
 ```c#
 using System;
 using System.IO;
@@ -72,6 +79,7 @@ class Program
 
 ### JavaScript
 Fetching the TXT Data from the endpoint
+
 ```js
 // URL of the TXT file
 const url = 'https://cheaderthecoder.github.io/5-Letter-words/words.txt';
@@ -100,4 +108,18 @@ fetch(url)
     console.error('error:', error);
   });
 ```
+
+
+## Acknowledgements
+A list of Repo's/projects that helped me in someway
+
+ - [Original Repo](https://github.com/charlesreid1/five-letter-words)
+ - [Original TXT file](https://github.com/charlesreid1/five-letter-words/blob/master/sgb-words.txt)
+ - [Readme.so](https://readme.so/editor)
+
+
+## License
+This project is licensed under the [MIT License](LICENSE.md)
+License - see the [LICENSE.md](LICENSE.md) file for
+details
 
