@@ -17,7 +17,9 @@ A collection of five-letter English words, available in both JSON and TXT format
 
 
 ## Usage
-You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally.
+You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally, For quick access to relevant links and further details, please visit the [resource page](https://cheaderthecoder.github.io/5-Letter-words/).
+
+
 
 
 ## Endpoints
