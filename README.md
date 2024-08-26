@@ -139,6 +139,6 @@ A list of Repo's/projects that helped me in someway
 
 ## License
 This project is licensed under the [MIT License](LICENSE.md)
-License - see the [LICENSE.md](LICENSE.md) file for
+License - see the [LICENSE](LICENSE) file for
 details
 
