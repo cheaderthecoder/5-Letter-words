@@ -1,37 +1,33 @@
-﻿using System;
-using System.IO;
-using Newtonsoft.Json;
-using System.Collections.Generic;
+using System;
+using System.Text.Json;
 
-
-namespace Test_c_
+public class TXTtoJSON
 {
-    internal class Program
+    public static async Task<string> LoadWords()
     {
-        static async Task Main(string[] args)
+        using (HttpClient client = new HttpClient())
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Connecting");
+            string content = await client.GetStringAsync("https://cheaderthecoder.github.io/5-Letter-words/words.txt");
+            string[] lines = content.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-            var words = await LoadWords();
+            List<string> wordList = lines.ToList();
 
-            var json = JsonConvert.SerializeObject(words);
+            // Create an anonymous object with the word list nested under a "words" key
+            var wordObject = new { words = wordList };
 
-            Console.WriteLine(json);
-            Console.ReadKey();
+            // Convert the object to a JSON string
+            string jsonObject = JsonSerializer.Serialize(wordObject, new JsonSerializerOptions { WriteIndented = true });
 
-            File.WriteAllText("words.json", json);
+            return jsonObject;
         }
+    }
 
-        public static async Task<List<string>> LoadWords()
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                Console.WriteLine("Connecting");
-                string content = await client.GetStringAsync("https://cheaderthecoder.github.io/5-Letter-words/words.txt");
-                string[] lines = content.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-
-                return lines.ToList();
-            }
-        }
+    public static async Task Main(string[] args)
+    {
+        string jsonWords = await LoadWords();
+        await File.WriteAllTextAsync("words.json", jsonWords);
+        Console.WriteLine(jsonWords);
+        Console.ReadKey();
     }
 }
