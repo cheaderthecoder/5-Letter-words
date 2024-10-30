@@ -3,7 +3,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/cheaderthecoder/5-Letter-words)
 ![LICENSE](https://img.shields.io/github/license/cheaderthecoder/5-Letter-words)
 
-A collection of five-letter English words, available in both JSON and TXT formats, designed for seamless integration into your projects. This repository offers an easily accessible list of five-letter words, ideal for word games, educational resources, and various other applications, with an extra c# script to convert txt to json thrown in 😉.
+A collection of five-letter English words, available in both JSON and TXT format, designed for seamless integration into your project(s). This repository offers an easily accessible list of five-letter words, ideal for word games, educational resources, and various other applications, with an extra c# script to convert txt to json thrown in 😉.
 
 
 ## Table of Contents
@@ -17,7 +17,7 @@ A collection of five-letter English words, available in both JSON and TXT format
 
 
 ## Usage
-You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally, For quick access to relevant links and further details, please visit the [resource page](https://cheaderthecoder.github.io/5-Letter-words/).
+You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally, For quick access to relevant links and further details, checkout the [resource page](https://cheaderthecoder.github.io/5-Letter-words/).
 
 
 
