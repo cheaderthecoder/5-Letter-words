@@ -139,6 +139,6 @@ A list of Repo's/projects that helped me in someway
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/mit)
-License - see the [LICENSE](LICENSE) file for
+License - see the <a href="https://github.com/cheaderthecoder/5-Letter-words/blob/main/LICENSE" target="_blank">LICENSE</a> file for
 details
 
