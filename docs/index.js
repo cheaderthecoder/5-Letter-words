@@ -1,5 +1,6 @@
 function addHeaderIDs() {
-  document.querySelectorAll("h1, h2, h3, h4, h5").forEach((heading) => {
+  const root = document.getElementById("markdown");
+  root.querySelectorAll("h1, h2, h3, h4, h5").forEach((heading) => {
     const text = heading.textContent?.trim();
     heading.id = text;
   });
