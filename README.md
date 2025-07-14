@@ -7,20 +7,20 @@ A collection of five-letter English words, available in both JSON and TXT format
 
 
 ## Table of Contents
-- [Usage](https://github.com/cheaderthecoder/5-Letter-words/#Usage)
-- [endpoints](https://github.com/cheaderthecoder/5-Letter-words/#Endpoints)
-- [Downloads](https://github.com/cheaderthecoder/5-Letter-words/#Download)
-- [Examples](https://github.com/cheaderthecoder/5-Letter-words/#Examples)
-- [Script](https://github.com/cheaderthecoder/5-Letter-words/#Script)
-- [Acknowledgements](https://github.com/cheaderthecoder/5-Letter-words/#Acknowledgements)
-- [License](https://github.com/cheaderthecoder/5-Letter-words/#License)
+- [Usage](#Usage)
+- [endpoints](#Endpoints)
+- [Downloads](#Download)
+- [Examples](#Examples)
+- [Script](#Script)
+- [Acknowledgements](#Acknowledgements)
+- [License](#License)
 
 
 ## Usage
-You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally. Below are some examples of how to fetch/read and use the word-list endpoint in your application or download and use the file locally, For quick access to relevant links and further details, checkout the [resource page](https://cheaderthecoder.github.io/5-Letter-words/).
+You can easily integrate this word list into your projects by accessing either the TXT or JSON endpoints or by downlading the files locally. Below are some examples of how to read, use and sometimes fetch the word list endpoint in your application. For quick access to relevant links and further details, checkout the [resource page](https://cheaderthecoder.github.io/5-Letter-words/).
 
-
-
+>[!Note]
+> You don't have to use the endpoint(s) to get the word list; but instead you can download the words locally and access them from there. This is much faster than using the endpoints and much more reliable as the file never fails to fetch. if all you want to do is access the words, I would recommend you download the word list locally.
 
 ## Endpoints
 You can access the list of words through the following endpoints:
@@ -138,7 +138,7 @@ A list of Repo's/projects that helped me in someway
 
 
 ## License
-This project is licensed under the [MIT License](LICENSE.md)
+This project is licensed under the [MIT License](https://opensource.org/license/mit)
 License - see the [LICENSE](LICENSE) file for
 details
 
