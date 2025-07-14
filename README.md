@@ -7,13 +7,13 @@ A collection of five-letter English words, available in both JSON and TXT format
 
 
 ## Table of Contents
-- [Usage](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Usage)
-- [endpoints](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Endpoints)
-- [Downloads](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Download)
-- [Examples](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Examples)
-- [Script](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Script)
-- [Acknowledgements](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#Acknowledgements)
-- [License](https://github.com/cheaderthecoder/5-Letter-words?tab=README.md#License)
+- [Usage](https://github.com/cheaderthecoder/5-Letter-words/#Usage)
+- [endpoints](https://github.com/cheaderthecoder/5-Letter-words/#Endpoints)
+- [Downloads](https://github.com/cheaderthecoder/5-Letter-words/#Download)
+- [Examples](https://github.com/cheaderthecoder/5-Letter-words/#Examples)
+- [Script](https://github.com/cheaderthecoder/5-Letter-words/#Script)
+- [Acknowledgements](https://github.com/cheaderthecoder/5-Letter-words/#Acknowledgements)
+- [License](https://github.com/cheaderthecoder/5-Letter-words/#License)
 
 
 ## Usage
