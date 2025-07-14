@@ -1,35 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5 letter words</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- highlight.js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/styles/a11y-dark.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/highlight.min.js"></script>
+
+    <!-- langs -->
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/languages/javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/languages/python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/languages/csharp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.11.1/build/languages/python.min.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="big-card">
-            <a href="https://github.com/cheaderthecoder/5-Letter-words"><h1>5 Letter words-list</h1></a>
-            <p>You can easily integrate this word list into your projects by accessing either the TXT, JSON endpoints or downlading the files locally.</p>
-            <div class="small-cards">
-                <div class="small-card small-card-1">
-                    <h2>Endpoints</h2>
-                    <p>You can access the list of words through the following endpoints:</p>
-                    <div class="buttons">
-                        <button class="cta-button" onclick="window.location.href='https://cheaderthecoder.github.io/5-Letter-words/words.txt';">TXT Endpoint</button>
-                        <button class="cta-button" onclick="window.location.href='https://cheaderthecoder.github.io/5-Letter-words/words.json';">JSON Endpoint</button>
-                    </div>
-                </div>
-                <div class="small-card small-card-2">
-                    <h2>Downloads</h2>
-                    <p>Instead of using a endpoint you can download the files locally at:</p>
-                    <div class="buttons">
-                        <button class="cta-button" onclick="window.location.href='https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.txt';">TXT file download</button>
-                        <button class="cta-button" onclick="window.location.href='https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.json';">JSON file download</button>
-                    </div>
-                </div>
+      <div class="big-card">
+        <a href="https://github.com/cheaderthecoder/5-Letter-words">
+          <h1>5 Letter words-list</h1>
+        </a>
+        <p>
+          You can easily integrate this word list into your projects by
+          accessing either the TXT, JSON endpoints or downlading the files
+          locally.
+        </p>
+        <div class="small-cards">
+          <div class="small-card small-card-1">
+            <h2>Endpoints</h2>
+            <p>
+              You can access the list of words through the following endpoints:
+            </p>
+            <div class="buttons">
+              <button
+                class="cta-button"
+                onclick="window.location.href='https://cheaderthecoder.github.io/5-Letter-words/words.txt';"
+              >
+                TXT Endpoint
+              </button>
+              <button
+                class="cta-button"
+                onclick="window.location.href='https://cheaderthecoder.github.io/5-Letter-words/words.json';"
+              >
+                JSON Endpoint
+              </button>
             </div>
+          </div>
+          <div class="small-card small-card-2">
+            <h2>Downloads</h2>
+            <p>
+              Instead of using a endpoint you can download the files locally at:
+            </p>
+            <div class="buttons">
+              <button
+                class="cta-button"
+                onclick="window.location.href='https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.txt';"
+              >
+                TXT file download
+              </button>
+              <button
+                class="cta-button"
+                onclick="window.location.href='https://github.com/cheaderthecoder/5-Letter-words/blob/main/words.json';"
+              >
+                JSON file download
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+
+    <div id="markdown-container">
+      <div class="markdown-container" id="markdown"></div>
+      <script>
+        async function loadMarkdown() {
+          const response = await fetch(
+            "https://raw.githubusercontent.com/cheaderthecoder/5-Letter-words/main/README.md"
+          );
+          const markdownContent = await response.text();
+          return markdownContent;
+        }
+        (async () => {
+          const markdownContent = await loadMarkdown();
+
+          document.getElementById("markdown").innerHTML =
+            marked.parse(markdownContent);
+          hljs.highlightAll();
+        })();
+      </script>
+    </div>
+  </body>
 </html>
